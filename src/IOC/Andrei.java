@@ -9,6 +9,7 @@ public class Andrei {
             int pointIndex = floatToString.indexOf('.');
             floatArrayToInt[i] = Integer.parseInt(floatToString.substring(pointIndex + 1));
         }
+
         return floatArrayToInt;
     }
 }
