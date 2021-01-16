@@ -4,8 +4,8 @@ import java.util.Arrays;
 
 public class Alexei {
     public static boolean comparisonOfTwoIntArrays(float[] floatArray, String[] stringArray) {
-        int[] floatArrayToInt = getDivisionalPartFromNumber(floatArray);
-        int[] stringArrayToInt = deleteLettersInStringArray(stringArray);
+        int[] floatArrayToInt = Andrei.getDivisionalPartFromNumber(floatArray);
+        int[] stringArrayToInt =Andrei.deleteLettersInStringArray(stringArray);
         if (floatArrayToInt.length != stringArrayToInt.length) {
             return false;
         } else {
